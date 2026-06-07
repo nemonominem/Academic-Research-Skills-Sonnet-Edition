@@ -71,7 +71,7 @@ Analyze each sample across 6 dimensions:
 
 ### Step 3: Profile Synthesis
 
-Combine the 6 dimensions into a **Style Profile** artifact (see `shared/handoff_schemas.md` Schema 10).
+Combine the 6 dimensions into a **Style Profile** artifact.
 
 Report to the user:
 > "I've analyzed your writing style from [N] samples. Key traits:

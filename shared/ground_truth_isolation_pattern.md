@@ -1,7 +1,6 @@
 # Ground-Truth Isolation Pattern
 
-**Status**: v3.3.2 — narrative hub doc; for declarative annotations see
-`shared/handoff_schemas.md`
+**Status**: v3.3.2 — narrative hub doc
 
 ---
 
@@ -165,10 +164,8 @@ not a duplication of their contents.
 | Source verification (S2 API) | `deep-research/references/semantic_scholar_api_protocol.md` |
 | Anti-leakage protocol | `academic-paper/references/anti_leakage_protocol.md` |
 | Reviewer calibration mode (FNR/FPR with private gold set) | `academic-paper-reviewer/references/calibration_mode_protocol.md` |
-| Cross-model verification | `shared/cross_model_verification.md` |
-| Declarative posture | `shared/handoff_schemas.md` (`data_access_level` and `task_type` sections) |
 
-This pattern document is the narrative rationale; those six reference files
+This pattern document is the narrative rationale; those three reference files
 are the implementation detail. If a specific rule here conflicts with language
 in one of those files, the more specific file governs for that mechanism —
 and that conflict should be surfaced as an issue so this document can be

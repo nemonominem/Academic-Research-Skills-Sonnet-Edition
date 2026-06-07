@@ -88,9 +88,3 @@ Downstream `draft_writer_agent` and `formatter_agent` read `version_records.yaml
 - the prose says "preprint v1" but the citation slug resolves to the scholar-confirmed proceedings record
 
 The warning is advisory. The scholar chooses whether to cite one version, cite multiple versions explicitly, or revise the claim.
-
-## Output Schemas
-
-- `shared/contracts/passport/timeline.schema.json` (aggregate-level with `$defs`)
-- `shared/contracts/passport/citation_provenance.schema.json` (aggregate-level)
-- `shared/contracts/passport/version_records.schema.json` (aggregate-level academic citation version-family sidecar)
